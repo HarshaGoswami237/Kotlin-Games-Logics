@@ -1,3 +1,4 @@
+//If Else Practice
 //🧪 Quest 2: The Elemental Strike
 //Create a new file called ElementalBattle.kt. We are going to use your Main_Weapon from the Hero Profile, but add an "Element" to it.
 //
