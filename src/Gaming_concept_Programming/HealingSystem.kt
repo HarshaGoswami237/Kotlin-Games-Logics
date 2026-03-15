@@ -1,3 +1,4 @@
+//if else logic practice to make Healing System
 //🧪 Quest 1: The Healing Potion System
 //In this practice, we aren't just checking "Dead or Alive." We are checking the state of the hero.
 //
