@@ -22,19 +22,23 @@ fun main(){
     var test_Gold = 10
     var Test_Level = 60
     val PVP_Rank = 1
-    // minimum requirments
+
+    // Minimum requirments
     val Level_Requirment = 50
     val Gold_Requirement = 1
 
-
+    // Checking Status
     var Is_Enough_Level =  Test_Level >= Level_Requirment
     var Is_Enough_Gold = test_Gold >= Gold_Requirement
     var Is_TopRank =   PVP_Rank == 1
 
                 // Match Making
     println("\t\t --- Match Making Requiremetns Cheking ---\n")
+
     if(Is_Enough_Level ){
+
         if(Is_Enough_Gold){
+
             if(Is_TopRank){
                 println("Entering Tournaament..")
                 println("Match Making.. Your Rand: $PVP_Rank")
